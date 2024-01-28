@@ -11,6 +11,7 @@ import (
 
 func main() {
 	a := app.New()
+	loadTheme(a)
 	w := a.NewWindow("calculator")
 
 	g := newGUI()
