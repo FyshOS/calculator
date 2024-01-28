@@ -45,17 +45,17 @@ func (g *gui) setupActions() {
 	digits := []*widget.Button{g.b0, g.b1, g.b2, g.b3, g.b4, g.b5, g.b6, g.b7, g.b8, g.b9}
 	for _, b := range digits {
 		digit := b
-		digit.OnTapped = func() {append(digit.Text)}
+		digit.OnTapped = func() { append(digit.Text) }
 	}
 
-	g.ba.OnTapped = func() {append("+")}
-	g.bs.OnTapped = func() {append("-")}
-	g.bm.OnTapped = func() {append("*")}
-	g.bd.OnTapped = func() {append("/")}
+	g.ba.OnTapped = func() { append("+") }
+	g.bs.OnTapped = func() { append("-") }
+	g.bm.OnTapped = func() { append("*") }
+	g.bd.OnTapped = func() { append("/") }
 
-	g.bbo.OnTapped = func() {append("(")}
-	g.bbc.OnTapped = func() {append(")")}
-	g.bp.OnTapped = func() {append(".")}
+	g.bbo.OnTapped = func() { append("(") }
+	g.bbc.OnTapped = func() { append(")") }
+	g.bp.OnTapped = func() { append(".") }
 }
 
 func (g *gui) evaluate() {
