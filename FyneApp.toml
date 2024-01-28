@@ -1,5 +1,5 @@
 [Details]
-
-Name = "calculator"
-ID = "com.fyshos.calculator"
-
+  Icon = "img/Icon.png"
+  Name = "calculator"
+  ID = "com.fyshos.calculator"
+  Build = 2
