@@ -21,16 +21,13 @@ func main() {
 	w.ShowAndRun()
 }
 
+var clearNext = false
+
 // here you can add some button / callbacks code using widget IDs
 func (g *gui) setupActions() {
 	g.out.SetText("")
 	g.bc.OnTapped = func() {
 		g.out.SetText("")
-	}
-	clearNext := false
-	g.eval.OnTapped = func() {
-		g.evaluate()
-		clearNext = true
 	}
 
 	append := func(s string) {
@@ -59,6 +56,7 @@ func (g *gui) setupActions() {
 }
 
 func (g *gui) evaluate() {
+    clearNext = true
 	expression, err := govaluate.NewEvaluableExpression(g.out.Text)
 	if err != nil {
 		g.out.SetText("error")

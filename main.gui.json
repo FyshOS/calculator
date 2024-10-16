@@ -11,7 +11,6 @@
       "Object": {
         "Type": "*fyne.Container",
         "Layout": "Grid",
-        "Name": "",
         "Objects": [
           {
             "Type": "*widget.Label",
@@ -26,7 +25,8 @@
                 "Italic": false,
                 "Monospace": false,
                 "Symbol": false,
-                "TabWidth": 0
+                "TabWidth": 0,
+                "Underline": false
               },
               "Truncation": 0,
               "Importance": 0
@@ -35,7 +35,6 @@
           {
             "Type": "*fyne.Container",
             "Layout": "Grid",
-            "Name": "",
             "Objects": [
               {
                 "Type": "*widget.Button",
@@ -96,7 +95,6 @@
           {
             "Type": "*fyne.Container",
             "Layout": "Grid",
-            "Name": "",
             "Objects": [
               {
                 "Type": "*widget.Button",
@@ -157,7 +155,6 @@
           {
             "Type": "*fyne.Container",
             "Layout": "Grid",
-            "Name": "",
             "Objects": [
               {
                 "Type": "*widget.Button",
@@ -218,7 +215,6 @@
           {
             "Type": "*fyne.Container",
             "Layout": "Grid",
-            "Name": "",
             "Objects": [
               {
                 "Type": "*widget.Button",
@@ -279,12 +275,10 @@
           {
             "Type": "*fyne.Container",
             "Layout": "Grid",
-            "Name": "",
             "Objects": [
               {
                 "Type": "*fyne.Container",
                 "Layout": "Grid",
-                "Name": "",
                 "Objects": [
                   {
                     "Type": "*widget.Button",
@@ -318,7 +312,9 @@
               },
               {
                 "Type": "*widget.Button",
-                "Name": "eval",
+                "Actions": {
+                  "OnTapped": "g.evaluate"
+                },
                 "Struct": {
                   "Hidden": false,
                   "Text": "=",
