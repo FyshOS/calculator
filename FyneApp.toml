@@ -3,3 +3,7 @@
   Name = "calculator"
   ID = "com.fyshos.calculator"
   Build = 2
+
+[Source]
+  Repo = "https://github.com/FyshOS/calculator.git"
+
