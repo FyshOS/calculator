@@ -1,9 +1,8 @@
 [Details]
-  Icon = "img/Icon.png"
-  Name = "calculator"
-  ID = "com.fyshos.calculator"
-  Build = 2
+Icon = "img/Icon.png"
+Name = "calculator"
+ID = "com.fyshos.calculator"
+Build = 6
 
 [Source]
-  Repo = "https://github.com/FyshOS/calculator.git"
-
+Repo = "https://github.com/FyshOS/calculator.git"
