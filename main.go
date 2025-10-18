@@ -3,6 +3,7 @@ package main
 import (
 	"strconv"
 
+	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/widget"
 
@@ -18,6 +19,7 @@ func main() {
 	w.SetContent(g.makeUI())
 
 	g.setupActions()
+	w.Resize(fyne.NewSize(150, 180))
 	w.ShowAndRun()
 }
 
