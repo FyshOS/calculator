@@ -58,7 +58,7 @@ func (g *gui) setupActions() {
 }
 
 func (g *gui) evaluate() {
-    clearNext = true
+	clearNext = true
 	expression, err := govaluate.NewEvaluableExpression(g.out.Text)
 	if err != nil {
 		g.out.SetText("error")
