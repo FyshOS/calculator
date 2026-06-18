@@ -1,9 +1,5 @@
-calculator
-*.apk
-*.app
-*.exe
-*.ipa
-*.tar.xz
-
+/calculator*
+/Calculator.*
+wasm
 
 .idea

@@ -1,8 +1,11 @@
 [Details]
 Icon = "img/Icon.png"
-Name = "calculator"
+Name = "Calculator"
 ID = "com.fyshos.calculator"
 Build = 6
 
 [Source]
 Repo = "https://github.com/FyshOS/calculator.git"
+
+[LinuxAndBSD]
+Categories = ["Utility"]
