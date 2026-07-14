@@ -9,3 +9,6 @@ Repo = "https://github.com/FyshOS/calculator.git"
 
 [LinuxAndBSD]
 Categories = ["Utility"]
+
+[Migrations]
+fyneDo = true
